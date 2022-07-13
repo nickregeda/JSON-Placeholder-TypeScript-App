@@ -1,0 +1,17 @@
+.container {
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.item {
+    border: solid 2px teal;
+    padding: 5px 10px;
+}
+
+.item:not(:last-of-type) {
+    margin-bottom: 10px;
+}

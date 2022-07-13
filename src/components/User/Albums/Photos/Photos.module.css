@@ -1,0 +1,33 @@
+.container {
+}
+
+.photos_container {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.item {
+    flex: 0 0 32.667%;
+    margin: 0.333%;
+}
+
+.img {
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    transition: 0.1s all;
+}
+
+.img:hover {
+    transform: scale(1.02);
+}
+
+.photo_page_container{
+}
+
+.photo_page_title{
+    text-align: center;
+    font-size: 20px;
+}

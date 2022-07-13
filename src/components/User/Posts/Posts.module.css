@@ -1,0 +1,42 @@
+.container {
+    margin: 20px 0;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.posts_container {
+    margin-bottom: 10px;
+}
+
+.item {
+    border: solid 2px teal;
+    margin: 10px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: teal;
+    color: white;
+}
+
+.post_title {
+    font-weight: bold;
+}
+
+.post_page_container {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.post_page_title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.post_page_body {
+    font-size: 20px;
+}

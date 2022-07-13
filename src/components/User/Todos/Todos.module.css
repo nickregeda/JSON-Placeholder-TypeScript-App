@@ -1,0 +1,22 @@
+.container {
+
+}
+
+.todos_container{
+    margin-bottom: 15px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.todo_title{
+    font-size: 18px;
+}
+
+.completed_image {
+    width: 20px;
+    margin-left: 10px;
+}

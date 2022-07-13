@@ -1,0 +1,32 @@
+.container {
+    width: 720px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.item {
+    border: solid 2px teal;
+    margin: 10px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+
+.item:hover{
+    background: teal;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.user_info_container {
+    margin: 10px 0;
+}
