@@ -36,7 +36,7 @@ export const getPrePhotos = (albumId: number, page: number, limit: number) => {
     return async (dispatch: Dispatch<PhotosActions>) => {
         try {
             dispatch(setPhotosError(null))
-            dispatch(setPrePhotosSuccess(false)) // ???
+            // dispatch(setPrePhotosSuccess(false)) // ???
             dispatch(setIsLoading())
             const response = await photoAPI.getPhotos(albumId, page, limit)
             dispatch(setPrePhotosSuccess({data: response.data, albumId: albumId}))
